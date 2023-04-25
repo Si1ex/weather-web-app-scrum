@@ -40,7 +40,7 @@ export default function Home(props) {
 export async function getServerSideProps(context) {
   // Call an external API endpoint to get posts.
   const query = context.query.slug;
-  const res = await fetch(`http://localhost:4000/api/${query}`);
+  const res = await fetch(`${process.env.url}/api/${query}`);
   const posts = await res.json();
   console.log(posts); // palauttaa oikein datan urlissa olevan kaupungin mukaan
 
