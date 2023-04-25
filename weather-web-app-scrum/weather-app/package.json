@@ -20,6 +20,7 @@
     "@headlessui/react": "^1.7.12",
     "@next/font": "13.1.6",
     "bcryptjs": "^2.4.3",
+    "chart.js": "^4.2.1",
     "concurrently": "^7.6.0",
     "css-loader": "^6.7.3",
     "dotenv": "^16.0.3",
@@ -31,8 +32,10 @@
     "next-auth": "^4.19.2",
     "node": "^19.8.1",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
-    "react-leaflet": "^4.2.1"
+    "react-leaflet": "^4.2.1",
+    "tailwind": "^4.0.0"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.2",
