@@ -25,6 +25,7 @@ function SignUpForm() {
       mode: 'cors',
       body: urlencodedUser,
       headers: {
+        'Access-Control-Allow-Origin': 'http://95.217.16.239:4000/',
         'Content-Type': 'application/x-www-form-urlencoded',
       },
     });
