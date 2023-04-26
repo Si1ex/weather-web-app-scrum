@@ -71,7 +71,7 @@ function SignUpForm() {
             className="w-[45%] text-white p-2 rounded bg-blue-700 hover:bg-blue-800 focus:ring-400 focus:ring-blue-300 font-medium bg-gradient-to-r from-pink-300 to-purple-400 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             type="submit"
           >
-            <Link href={'/auth/signin'}>Luo tili</Link>
+            Luo tili
           </button>
         </div>
       </form>
