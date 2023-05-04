@@ -131,6 +131,7 @@ export default function SearchBar() {
             value={userInput}
             onChange={handleInputChange}
             id="default-search"
+            data-testid="default-search"
             autoComplete="off"
             className={`w-full text flex p-3 pl-10 py-2.5 px-4 rounded-t-3xl shadow-xl outline-none overflow-y-auto scrollbar-thumb-purple-500 text-gray-900 bg-gray-50 focus:border-purple-400 dark:bg-white ${
               isDropdownVisible && userInput
@@ -143,6 +144,7 @@ export default function SearchBar() {
           <div className="w-1/3 md:w-1/4 absolute inset-y-0 right-0 z-30 flex items-center pl-3">
             <button
               type="submit"
+              data-testid="search-button"
               onClick={() =>
                 router
                   .push(`/kaupunki/${capitalize(userInput)}`)
@@ -154,6 +156,7 @@ export default function SearchBar() {
             </button>
           </div>
           <div
+            data-testid="suggestion-div"
             className={`absolute mt-1 text w-full top-10 left-0 lg:left-0 max-h-44 scrollbar scrollbar-thumb-rounded-xl scrollbar-corner-rounded-xl scrollbar-track-transparent scrollbar-thumb-purple-500 lg:right-0 bg-white overflow-y-auto ${
               showSuggestions ? '' : 'invisible'
             } ${isDropdownVisible ? 'rounded-b-2xl' : 'rounded-b-xl'}`}
