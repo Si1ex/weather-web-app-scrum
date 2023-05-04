@@ -57,7 +57,7 @@ export default function CollectionBox({ markers, handleCollectionSelection }) {
       <div>
         <h1 className="text-xl text-sky-600/100">Omat kokoelmat</h1>
       </div>
-      {collections.length == 0 ? (
+      {collections.length >= 0 ? (
         <div className=" gap-5 px-5 flex flex-nowrap overflow-x-auto snap-x snap-mandatory">
           {collectionCards}
         </div>
