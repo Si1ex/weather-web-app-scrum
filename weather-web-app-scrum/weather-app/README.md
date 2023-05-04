@@ -72,6 +72,27 @@ npm run start
 
 ```
 
+## Testing
+
+place unit test in ./test folder
+
+To test next js project with Jest
+
+# npm install --save-dev jest @testing-library/react @testing-library/jest-dom
+
+We also need
+
+# npm install --save-dev react-test-renderer
+
+Some components are dependent on Next.js useRouter which cannot be use outside of Next.js application.
+Fix this by installng next-router-mock
+
+# npm i next-router-mock
+
+Run all tests with
+
+# npm run test
+
 ## Tech
 
 | Service  | Tech         | Version | Explanation                                   |
