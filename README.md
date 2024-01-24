@@ -6,6 +6,8 @@
 [![Node v19](https://img.shields.io/badge/NodeJS-v19-blue)](https://nodejs.org/en/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) -->
 
+This is Full-Stack Weather Forecast Website. **API-KEY OUTDATED**
+
 Weather icons: https://bas.dev/
 
 Frontend with [NextJs].
@@ -47,6 +49,10 @@ through your commits before merging changes.
 ### Development
 
 ```bash
+
+#Change directory
+
+cd weather-app/
 
 # Install required packages
 
