@@ -13,6 +13,8 @@ Weather icons: https://bas.dev/
 Frontend with [NextJs].
 Backend with [NodeJs].
 
+![oht2 käyttöliittymä](https://github.com/Si1ex/Si1ex/assets/35920803/5af92ea5-43e7-4dda-b9dc-27dc9c9df23c)
+
 ### Table of Contents
 
 - [Documentation](#Documentation)
