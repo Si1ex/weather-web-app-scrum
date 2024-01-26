@@ -8,12 +8,13 @@
 
 This is Full-Stack Weather Forecast Website. **API-KEY OUTDATED**
 
+![front](https://github.com/Si1ex/weather-web-app-scrum/assets/35920803/e5c7a333-184a-4957-ba26-6e4154a41203)
+![oht2 käyttöliittymä](https://github.com/Si1ex/Si1ex/assets/35920803/5af92ea5-43e7-4dda-b9dc-27dc9c9df23c)
+
 Weather icons: https://bas.dev/
 
 Frontend with [NextJs].
 Backend with [NodeJs].
-
-![oht2 käyttöliittymä](https://github.com/Si1ex/Si1ex/assets/35920803/5af92ea5-43e7-4dda-b9dc-27dc9c9df23c)
 
 ### Table of Contents
 
